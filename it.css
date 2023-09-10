@@ -1,0 +1,88 @@
+
+.logo {
+    height: 50px; 
+    width: 100%;
+
+  }
+  
+  .nav-link {
+    padding: 8px 15px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+      background-color: #ffffff;
+      font-size: 15px;
+      color: black;
+      font-weight: 700;
+      
+  
+  
+  
+    }
+
+  
+  .navbar-brand {
+    margin-right: 15px;
+  }
+  
+  
+  .navbar-nav .nav-link:hover {
+    color: darkblue
+}
+.technologies {
+    text-align: center;
+
+  }
+  
+  .train-container {
+    overflow: hidden;
+    margin-top: 20px;
+  
+  }
+  
+  .train {
+    animation: scrollTrain 15s linear infinite;
+  }
+  
+  .tech-img {
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    transition: transform 0.3s ease-in-out;
+
+  }
+  
+  .tech-img:hover {
+    transform: scale(1.1);
+  }
+  
+  @keyframes scrollTrain {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  @media (max-width: 767px) {
+    .col-md-12 h1{
+      margin-top: 20%;
+    }
+  }
+  .logo {
+    width: 60px; 
+  
+  }
+  
+  @media (max-width: 767px) {
+    .logo {
+        width: 60px; 
+        width: 60px; 
+        margin-left: 10px;
+        margin-top: 22%;
+    }
+  }
+  

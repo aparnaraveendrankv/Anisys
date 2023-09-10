@@ -1,0 +1,159 @@
+
+.logo {
+    height: 50px; 
+    width: 100%;
+
+  }
+  
+  .nav-link {
+    padding: 8px 15px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+      background-color: #ffffff;
+      font-size: 15px;
+      color: black;
+      font-weight: 700;
+      
+    }
+  
+  .navbar-brand {
+    margin-right: 15px;
+  }
+  
+  
+  .navbar-nav .nav-link:hover {
+    color: darkblue
+}
+.review-container {
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .review-slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .review {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+
+  }
+
+  .stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .star {
+    font-size: 24px;
+    color: gold;
+  }
+
+  .review-content {
+    font-size: 16px;
+    line-height: 1.5;
+
+  }
+  .review {
+     
+    width: 200px;
+
+    display:flex;
+    border: 1px solid #ccc;
+  margin-top: 10px;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+
+ 
+  
+  }
+  .review h3{
+  color: #3ec1d5; 
+
+  
+  }
+  .review-section h2{
+    text-align: center;
+    top: 10px;
+    font-size: 30px;
+    font-style: italic;
+  }
+  .review:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .review h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+
+  }
+  .review-slider {
+    /* align-items: center; */
+   margin-left: 10%;  
+    /* width: 300px;  */
+    overflow: hidden;
+    display: flex;
+    margin-right: 10px;
+  }
+  
+  .review {
+    display: none;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .review.active {
+    display: inline-block;
+    align-items: center;
+  }
+  
+  .stars {
+    color: #ffd700;
+  }
+  
+  .star {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(https://img.freepik.com/free-vector/start_53876-25533.jpg?w=900&t=st=1688123134~exp=1688123734~hmac=a17f1d518056b31d0d16034de23aec8386dc2c459424506cf0ba3cb11f04abac); 
+    background-size: cover;
+  }
+  
+  .review-content {
+    font-style: italic;
+
+  }
+  .review-container.h1{
+    text-align: center;
+
+  } 
+  @media (max-width: 767px) {
+    .container h1{
+      margin-top: 30%;
+    }
+  }
+  .logo {
+    width: 100px; 
+  
+  }
+  
+  @media (max-width: 767px) {
+    .logo {
+        width: 80px; 
+    }
+  }
+  

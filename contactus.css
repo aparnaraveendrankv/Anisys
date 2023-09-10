@@ -1,0 +1,190 @@
+
+.logo {
+    height: 50px; 
+    width: 100%;
+
+  }
+  
+  .nav-link {
+    padding: 8px 15px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+      background-color: #ffffff;
+      font-size: 15px;
+      color: black;
+      font-weight: 700;
+      
+  
+  
+  
+    }
+  
+  .navbar-brand {
+    margin-right: 15px;
+  }
+  
+  
+  .navbar-nav .nav-link:hover {
+    color: darkblue
+}
+
+
+  .contact-info {
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    padding: 20px;
+ 
+  }
+
+  .whatsapp-btn {
+    display: inline-block;
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+
+  }
+
+  .whatsapp-btn:hover {
+    background-color: #128c7e;
+  }
+  .logo {
+    width: 60px; 
+  
+  }
+  
+  @media (max-width: 767px) {
+    .logo {
+        width: 60px; 
+    }
+  }
+  
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    margin-left: 10px;
+  }
+
+  .collapse.navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    padding: 10px;
+  }
+  .col-lg-3 {
+    width: 80%;
+    margin: 1% 0;
+  }
+
+  .carousel-content {
+    padding: 30px 10px;
+  }
+
+  .carousel-content h1 {
+    font-size: 30px; 
+  }
+  .col-lg-4 {
+    margin-bottom: 2%;
+  }
+
+  .service-item {
+    padding-bottom: 10px;
+  }
+
+  .service-item h2 {
+    font-size: 24px;
+  }
+
+  .img-fluid {
+    height: 80px; 
+  }
+
+  .btn-primary {
+    font-size: 14px;
+  }
+
+  .service-item {
+    cursor: pointer;
+  }
+
+}
+#navbarToggler {
+  position: relative;
+  top: -50px;
+  right: 5px;
+  z-index: 1000;
+}
+
+@media (max-width: 767px) {
+  .row.mobile-spacing {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .fixed-top .navbar {
+    height: 50px;
+
+  }
+
+  .navbar-toggler {
+    position: relative;
+    top: 5px;
+    right: 5px;
+    overflow-x: hidden;
+  }
+
+
+
+  .col-lg-8 .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+
+  .navbar-nav .nav-item {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-collapse.show .navbar-light {
+    display: flex;
+  }
+  .tech-img {
+    max-width: 120px;
+}
+}
+.logo {
+  width: 60px; 
+
+}
+
+@media (max-width: 767px) {
+  .logo {
+      width: 60px; 
+  }
+}
+
+
+
+
